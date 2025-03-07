@@ -22,9 +22,6 @@ export class AppComponent {
   checkDna(): void {
     if(this.dnaform.valid){
       const dna = this.dnaform.value.dnaSequence!.split('\n').map((rouw) => rouw.trim()).filter(row => row.length >0);
-      console.log(dna);
-      
-      
       this.mutanService.checkMutan(dna);
     }
   }
