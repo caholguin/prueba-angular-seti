@@ -1,27 +1,45 @@
-# PruebaFront
+# 📌 Levanter proyecto de Angular 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.7.
+Este repositorio contiene un proyecto desarrollado en Angular 18. A continuación, se detallan los pasos necesarios para clonar, instalar y ejecutar el proyecto correctamente.
 
-## Development server
+## 🚀 Requisitos previos
+Antes de comenzar, asegúrate de tener instalado lo siguiente:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- [Node.js](https://nodejs.org/) (versión 18 o superior recomendada)
+- [Angular CLI](https://angular.io/cli) (instálalo con `npm install -g @angular/cli`)
+- [Git](https://git-scm.com/)
 
-## Code scaffolding
+## 📥 Clonar el repositorio
+Para obtener el código fuente del proyecto, ejecuta el siguiente comando en tu terminal:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+```sh
+git clone https://github.com/caholguin/prueba-angular-seti
+```
 
-## Build
+Luego, accede a la carpeta del proyecto:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+```sh
+cd nombre-del-repositorio
+```
 
-## Running unit tests
+## 📦 Instalación de dependencias
+Ejecuta el siguiente comando para instalar las dependencias necesarias:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+```sh
+npm install
+```
 
-## Running end-to-end tests
+## ▶️ Ejecutar el proyecto
+Para iniciar el servidor de desarrollo, usa el siguiente comando:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+```sh
+ng serve
+```
 
-## Further help
+Por defecto, la aplicación estará disponible en [http://localhost:4200](http://localhost:4200/).
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Si deseas especificar un puerto diferente, puedes hacerlo así:
+
+```sh
+ng serve --port=4300
+```
